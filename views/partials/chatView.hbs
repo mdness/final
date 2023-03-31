@@ -1,0 +1,22 @@
+<br />
+<div class='container'>
+  <div class='card'>
+    <div class='card-header'>
+      <h4>ChatBot</h4>
+    </div>
+    <div class='card-body'>
+      <form class='form-inline' id='loginForm'>
+        <label>Ingrese el token de usuario para cargar el historial de chat: *Obligatorio</label>
+        <input type='text' class='form-control form-cell' style="width: 700px;" id='userToken' name='userToken' placeholder='userToken*' />
+        <button type='submit' class='btn btn-primary' id='submitToken'>Cargar</button>
+      </form>
+      <div class='chatWindow'>
+        <div id='chatMessage'></div>
+      </div>
+      <form class='form-inline chatForm' id='chatForm'>
+        <input type='text' class='form-control form-cell' style="width: 700px;" id='chatMsg' name='chatMsg' placeholder='Mensaje' />
+        <button type='submit' class='btn btn-primary' id='submitMessage'>Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
